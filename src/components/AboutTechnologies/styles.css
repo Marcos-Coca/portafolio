@@ -1,0 +1,38 @@
+.About-Technologies {
+   font-size: 30px;
+   font-weight: normal;
+}
+
+.About-Technologies svg {
+   width: 50px;
+   height: 50px;
+   fill: #fff;
+   margin-right: 8px;
+}
+.About-Technologies-Image {
+   display: grid;
+   grid-gap: 1rem 2rem;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.About-Technologies-Image > div {
+   display: flex;
+   font-size: 1.5rem;
+   align-items: center;
+}
+
+@media (max-width: 850px) and (min-width: 720px) {
+   .About-Technologies svg {
+      width: 35px;
+      height: 35px;
+   }
+}
+
+@media (max-width: 720px) {
+   .About-Technologies-Image {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 200px));
+   }
+   .About-Technologies {
+      width: 100%;
+   }
+}

@@ -1,0 +1,49 @@
+.About-Title {
+   font-size: 50px;
+   margin: 0;
+   margin-bottom: 20px;
+   color: var(--main-color);
+}
+
+.About-Description {
+   width: 45%;
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.About-Text {
+   font-size: 25px;
+}
+
+@media (max-width: 850px) and (min-width: 720px) {
+   .About-Text {
+      font-size: 20px;
+   }
+   .About-Title {
+      font-size: 45px;
+   }
+}
+@media (max-width: 720px) {
+   .About-Description {
+      width: 60%;
+      height: auto;
+      margin-top: 80px;
+   }
+}
+
+@media (max-width: 615px) {
+   .About-Description {
+      width: 100%;
+   }
+}
+
+@media (max-width: 410px) {
+   .About-Text {
+      font-size: 20px;
+   }
+   .About-Title {
+      font-size: 45px;
+   }
+}

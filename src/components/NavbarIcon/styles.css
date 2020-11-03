@@ -1,0 +1,31 @@
+.Navbar-Icon {
+   position: relative;
+   text-decoration: none;
+}
+
+.Navbar-Icon i {
+   transition: all 0.3s ease-out;
+}
+.Navbar-Icon:hover {
+   color: var(--main-color);
+}
+
+.Navbar-Icon:hover i {
+   opacity: 0;
+}
+
+.Navbar-Icon:hover .Navbar-Icon-AltText {
+   opacity: 1;
+}
+
+.Navbar-Icon-AltText {
+   left: 0;
+   top: 30%;
+   opacity: 0;
+   width: 100%;
+   font-size: 12px;
+   text-align: center;
+   position: absolute;
+   transition: all 0.3s ease-out;
+   text-transform: uppercase;
+}

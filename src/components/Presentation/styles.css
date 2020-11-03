@@ -1,0 +1,91 @@
+.Presentation {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Presentation h1 {
+  margin: 0;
+  position: relative;
+  font-size: 50px;
+}
+
+.Presentation .Presentation-Content-Name {
+  color: var(--main-color);
+}
+
+.Presentation-Content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Presentation h2 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  color: var(--font-second-color);
+  font-family: var(--second-font);
+}
+
+.Presentation .Presentation-HtmlTag {
+  font-size: 20px;
+  position: absolute;
+  font-family: var(--cursive-font);
+  color: var(--font-third-color);
+}
+
+.Presentation-Content-Image {
+  width: 40%;
+}
+.Presentation-Content-Image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+  .Presentation h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .Presentation h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 759px) {
+  .Presentation {
+    padding-top: 10%;
+    align-items: center;
+  }
+  .Presentation-Content {
+    flex-direction: column;
+  }
+  .Presentation-Content-Image {
+    width: 60%;
+  }
+}
+
+@media (max-width: 460px) {
+  .Presentation h1 {
+    font-size: 26px;
+  }
+
+  .Presentation h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .Presentation h1 {
+    font-size: 20px;
+  }
+  .Presentation h2 {
+    font-size: 0.8rem;
+  }
+}

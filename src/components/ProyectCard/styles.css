@@ -1,0 +1,37 @@
+.Portfolio-Proyects-Card {
+  width: 100%;
+  position: relative;
+}
+
+.Portfolio-Proyects-Card img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.Portfolio-Proyects-Icons {
+  top: 20px;
+  opacity: 0;
+  right: 20px;
+  padding: 6px;
+  z-index: 3000;
+  border-radius: 4px;
+  position: absolute;
+  transition: all 0.3s ease;
+  background: var(--second-color);
+}
+
+.Portfolio-Proyects-Icons svg {
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+}
+
+.Portfolio-Proyects-Card:hover img {
+  opacity: 0.5 !important;
+}
+
+.Portfolio-Proyects-Card:hover .Portfolio-Proyects-Icons {
+  opacity: 1;
+}

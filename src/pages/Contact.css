@@ -1,0 +1,30 @@
+.Contact {
+   display: flex;
+   justify-content: space-around;
+}
+.Contact-Image {
+   width: 50%;
+}
+
+.Contact-Image img {
+   width: 100%;
+   object-fit: contain;
+}
+
+.Contact-Form-Container {
+   width: 40%;
+}
+
+@media (max-width: 800px) {
+   .Contact {
+      align-items: center;
+      flex-direction: column;
+   }
+   .Contact-Image {
+      width: 80%;
+      margin-bottom: 10vh;
+   }
+   .Contact-Form-Container {
+      width: 80%;
+   }
+}
