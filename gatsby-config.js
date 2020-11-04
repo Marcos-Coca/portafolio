@@ -3,11 +3,12 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `Portfolio`,
-    description: `My personal portfolio`,
+    description: `Marcos Mercado personal website`,
     author: `@marcoscoca`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
