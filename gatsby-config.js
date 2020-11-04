@@ -35,8 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Marcos Mercado Portfolio`,
+        short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#212121`,
         theme_color: `#e84545`,
@@ -44,5 +44,6 @@ module.exports = {
         icon: `src/images/favicon.png`,
       },
     },
+    "gatsby-plugin-offline",
   ],
 }
