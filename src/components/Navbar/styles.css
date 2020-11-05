@@ -1,110 +1,113 @@
 .Navbar {
-   display: flex;
-   width: 80px;
-   height: 100%;
-   z-index: 99999;
-   position: fixed;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-   background: var(--third-color);
+  display: flex;
+  width: 80px;
+  height: 100%;
+  z-index: 99999;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--third-color);
 }
 
 .Navbar-Icons {
-   width: 100%;
-   height: 50%;
-   display: flex;
-   font-size: 30px;
-   text-align: center;
-   flex-direction: column;
-   justify-content: space-around;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .Navbar-Icons .active {
-   color: var(--main-color);
+  color: var(--main-color);
 }
 
 .Navbar a {
-   color: var(--font-third-color);
+  color: var(--font-third-color);
 }
 
 .Navbar a:hover {
-   color: var(--main-color);
+  color: var(--main-color);
 }
 .Navbar-Media {
-   display: flex;
-   font-size: 1.2rem;
-   flex-direction: column;
+  display: flex;
+  font-size: 1.2rem;
+  flex-direction: column;
 }
 .Navbar-Media a {
-   margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .Navbar .Navbar-HamburgerMenu {
-   border: none;
-   display: none;
-   color: #fff;
-   font-size: 35px;
-   background: transparent;
-   margin: 10px 20px 10px 10px;
+  border: none;
+  display: none;
+  color: #fff;
+  font-size: 35px;
+  background: transparent;
+  margin: 10px 20px 10px 10px;
 }
 
 .Navbar .Navbar-React {
-   padding: 1rem;
-   cursor: pointer;
-   font-size: 40px;
-   color: var(--main-color);
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 40px;
+  color: var(--main-color);
 }
 #btnControl {
-   display: none;
+  display: none;
 }
 
 #btnControl:checked + label {
-   color: var(--main-color);
+  color: var(--main-color);
 }
 
 @media (max-width: 950px) {
-   .Navbar {
-      width: 100%;
-      height: 60px;
-      flex-direction: row;
-      align-items: center;
-   }
+  .Navbar {
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+  }
 
-   .Navbar-Icons {
-      height: auto;
-      width: 50%;
-      flex-direction: row;
-   }
-   .Navbar-Media {
-      width: 25%;
-      flex-direction: row;
-      justify-content: space-around;
-   }
-   .Navbar-Media a {
-      margin-bottom: 0;
-      margin-right: 5%;
-   }
+  .Navbar-Icons {
+    height: auto;
+    width: 50%;
+    flex-direction: row;
+  }
+  .Navbar-Media {
+    width: 25%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .Navbar-Media a {
+    margin-bottom: 0;
+    margin-right: 5%;
+  }
 }
 
-@media (max-width: 500px) {
-   .Navbar .Navbar-HamburgerMenu {
-      display: block;
-   }
-   .Navbar .Navbar-Icons {
-      top: 60px;
-      left: 100%;
-      width: 100%;
-      height: 60px;
-      position: fixed;
-      align-items: center;
-      transition: all 0.3s ease-out;
-      background: var(--third-color);
-   }
-   .Navbar .Navbar-Media {
-      display: none;
-   }
-   #btnControl:checked + label + .Navbar-Icons {
-      left: 0;
-   }
+@media (max-width: 550px) {
+  .Navbar .Navbar-HamburgerMenu {
+    display: block;
+  }
+  .Navbar .Navbar-Icons {
+    top: 60px;
+    left: 150%;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    align-items: center;
+    transition: all 0.3s ease-out;
+    background: var(--third-color);
+  }
+  .Navbar .Navbar-Media {
+    display: none;
+  }
+  #btnControl:checked + label + .Navbar-Icons {
+    left: 0;
+  }
+  #btnControl:checked + label + .Navbar-Icons > * {
+    left: 0;
+  }
 }

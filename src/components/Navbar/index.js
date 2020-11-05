@@ -1,16 +1,18 @@
-import React from "react"
+import React, { useContext } from "react"
+import NavbarContext from "../../context"
 import { Link } from "gatsby"
 
 import { SiGmail } from "react-icons/si"
 import { GoMarkGithub } from "react-icons/go"
 import { GiHamburgerMenu } from "react-icons/gi"
-import { FaRegUser, FaLinkedin, FaTwitter, FaReact } from "react-icons/fa"
-import { RiHome2Line, RiBriefcase4Line, RiMailLine } from "react-icons/ri"
+import { FaLinkedin, FaTwitter, FaReact } from "react-icons/fa"
 
-import NavbarIcon from "../NavbarIcon"
+import NavbarIcons from "../NavbarIcons"
+
 import "./styles.css"
 
 function Navbar() {
+  const { checked } = useContext(NavbarContext)
   return (
     <nav className="Navbar">
       <div className="Navbar-React">
@@ -18,27 +20,14 @@ function Navbar() {
           <FaReact color="var(--main-color)" />
         </Link>
       </div>
-      <input type="checkbox" id="btnControl" />
+
+      <input checked={checked} type="checkbox" id="btnControl" />
       <label className="Navbar-HamburgerMenu" htmlFor="btnControl">
         <GiHamburgerMenu />
       </label>
-      <div className="Navbar-Icons">
-        <NavbarIcon to="/" altText="Home">
-          <RiHome2Line />
-        </NavbarIcon>
 
-        <NavbarIcon to="/about" altText="About">
-          <FaRegUser />
-        </NavbarIcon>
+      <NavbarIcons />
 
-        <NavbarIcon to="/portfolio" altText="Portfolio">
-          <RiBriefcase4Line />
-        </NavbarIcon>
-
-        <NavbarIcon to="/contact" altText="Contact">
-          <RiMailLine />
-        </NavbarIcon>
-      </div>
       <div className="Navbar-Media">
         <a target="blank" href="https://github.com/Marcos-Coca">
           <GoMarkGithub />
