@@ -6,7 +6,7 @@ export default [
     technologies: [Icons.Html, Icons.Css, Icons.React, Icons.NextJs],
     imageName: "chat-group.png",
     description:
-      "Chat group hecho con Nextjs que te permite escribir mensajes, leer los mensajes de los otros usuarios, crear una nueva sala y buscar una nueva sala",
+      "Chat group built with Next.js that allows you to write messages, read messages from other users, create a new room, and search for a new room.",
     proyectUrl: "https://chat-group.vercel.app",
     repoUrl: "https://github.com/Marcos-Coca/chat-group",
   },
@@ -16,7 +16,7 @@ export default [
     technologies: [Icons.Html, Icons.Css, Icons.React, Icons.Webpack],
     imageName: "MlbStatsApp.png",
     description:
-      "App que utilizando la Api de la Mlb recolecta las estadiscas de los jugadores, equipos, juegos en progreso, etc. Hecha con React y configurado el webpack de forma manual.",
+      "App that uses the MLB API to collect player statistics, team stats, games in progress, etc. Built with React and manually configured Webpack.",
     proyectUrl: "https://mlb-stats-app.marcos-coca.vercel.app/",
     repoUrl: "https://github.com/Marcos-Coca/Mlb-stats-app",
   },
@@ -26,7 +26,7 @@ export default [
     technologies: [Icons.Html, Icons.Css, Icons.React, Icons.NextJs],
     imageName: "ipAddressTracker.png",
     description:
-      "Aplicacion hecha con NextJs y React para que rastrea la IP que sea introducida y utilizando la API de mapbox representar visualmenet la posición en un mapa.",
+      "Application built with Next.js and React that tracks the entered IP and uses the Mapbox API to visually represent the position on a map.",
     proyectUrl: "https://ip-address-tracker.marcos-coca.vercel.app/",
     repoUrl: "https://github.com/Marcos-Coca/IP-Address-Tracker",
   },
@@ -36,7 +36,7 @@ export default [
     technologies: [Icons.Html, Icons.Sass, Icons.React],
     imageName: "rickAndMorty.png",
     description:
-      "Una Especie de Wiki de todos los personajes de Rick and Morty con información de episodios en que aparece, origin, status,etc. Hecho utilizando Angular 10.",
+      "A sort of Wiki for all the characters of Rick and Morty, including information on episodes they appear in, origin, status, etc. Built using Angular 10.",
 
     proyectUrl: "https://rickandmortywiki.herokuapp.com/",
     repoUrl: "https://github.com/Marcos-Coca/rick-and-morty-wiki",

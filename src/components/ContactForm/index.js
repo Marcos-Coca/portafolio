@@ -51,7 +51,7 @@ function ContactForm() {
         <input
           type="text"
           name="subject"
-          placeholder="Asunto"
+          placeholder="Subject"
           id="inputSubject"
           required
         />
@@ -59,12 +59,12 @@ function ContactForm() {
       <div className="Contact-Form-Input">
         <textarea
           name="message"
-          placeholder="Mensaje"
+          placeholder="Body"
           id="inputMessage"
           required
         />
       </div>
-      <button className="button">Enviar Mensaje</button>
+      <button className="button">Send</button>
     </form>
   )
 }

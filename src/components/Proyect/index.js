@@ -15,7 +15,7 @@ export default function Proyect({ proyect }) {
       <p className="Proyect-Description">{proyect.description}</p>
 
       <div className="Proyect-Technologies">
-        <h3>Tecnólogias Usadas</h3>
+        <h3>Tecnologies</h3>
         <ul className="Proyect-Technologies-Icons">
           {proyect.technologies.map(name => {
             const Icon = Icons[name]
@@ -36,7 +36,7 @@ export default function Proyect({ proyect }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Ir Al Proyecto
+          Go to project
         </a>
         <a
           className="button"
@@ -44,7 +44,7 @@ export default function Proyect({ proyect }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Ir Al Repositorio
+          Go to repo
         </a>
       </div>
     </div>

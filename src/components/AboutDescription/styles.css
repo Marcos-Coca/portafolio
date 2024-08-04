@@ -15,6 +15,7 @@
 
 .About-Text {
   font-size: 25px;
+  line-height: 1.5;
 }
 
 @media (max-width: 850px) and (min-width: 720px) {

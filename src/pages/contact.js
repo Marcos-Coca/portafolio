@@ -17,7 +17,7 @@ function Contact() {
         </div>
         <div className="Contact-Form-Container">
           <h1>
-            <Title title="Contáctame!" />
+            <Title title="Contact&nbsp;me!" />
           </h1>
           <ContactForm />
         </div>

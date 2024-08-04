@@ -38,20 +38,22 @@ main {
 }
 
 .button {
+  border-radius: 8px;
   cursor: pointer;
   outline: none;
   font-weight: 700;
   margin-top: 25px;
   font-weight: 600;
-  font-size: 0.86rem;
-  letter-spacing: 4px;
+  font-size: 1rem;
+  letter-spacing: 2px;
   text-decoration: none;
   display: inline-block;
-  padding: 0.8rem 1.25rem;
+  padding: 1rem 1.25rem;
   background: transparent;
   color: var(--main-color);
   font-family: var(--second-font);
   border: 1px solid var(--main-color);
+  transition: all 0.3s ease;
 }
 .button:hover {
   border-color: var(--second-color);

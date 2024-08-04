@@ -14,16 +14,15 @@ function Presentation() {
         </div>
         <div>
           <h1>
-            <Title title="Hola,&nbsp;Soy&nbsp;" />
+            <Title title="Hi,&nbsp;I'm&nbsp;" />
             <span className="Presentation-Content-Name">
               <Title title="Marcos&nbsp;Mercado" />
             </span>
             <br />
-            <Title title="Web&nbsp;Developer" />
+            <Title title="Frontend&nbsp;Engenieer" />
           </h1>
-          <h2>Front End Developer</h2>
           <Link to="/portfolio">
-            <button className="button">Ver Mi Trabajo</button>
+            <button className="button">View my projects</button>
           </Link>
         </div>
       </div>

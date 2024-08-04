@@ -8,22 +8,13 @@ function AboutDescription() {
   return (
     <div className="About-Description">
       <h1 className="About-Title">
-        <Title style={{ color: "var(--main-color)" }} title="Sobre&nbsp;Mí" />
+        <Title style={{ color: "var(--main-color)" }} title="About&nbsp;Me" />
       </h1>
       <p className="About-Text">
-        Soy un Frontend Developer{" "}
-        <span role="img" aria-label="emoji">
-          👨🏾‍💻
-        </span>{" "}
-        con más de un año programando en Javascript y tengo conocimiento en
-        React, Responsive Design y manejo de Backend con NodeJs.
-        <br />
-        Soy una persona autodidacta con ganas de crecer profesionalmente y que
-        nunca para de aprender.{" "}
-        <span role="img" aria-label="emoji">
-          💚
-        </span>
-        .
+        Frontend Engineer with 3+ years of experience in JavaScript, React,
+        Next.js, Node.js, Angular, Storybook, and Azure. Proven ability to
+        deliver high-performing, accessible web applications for 100k+ users,
+        with expertise in SEO and web performance optimization.
       </p>
     </div>
   )
