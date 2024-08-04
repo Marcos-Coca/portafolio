@@ -16,7 +16,7 @@ function Presentation() {
           <h1>
             <Title title="Hi,&nbsp;I'm&nbsp;" />
             <span className="Presentation-Content-Name">
-              <Title title="Marcos&nbsp;Mercado" />
+              <Title title="Marcos&nbsp;Mercado&nbsp;Coca" />
             </span>
             <br />
             <Title title="Frontend&nbsp;Engenieer" />

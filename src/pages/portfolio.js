@@ -13,7 +13,7 @@ function Portfolio() {
         target="blank"
         className="button"
       >
-        Ver más
+        See more
       </a>
     </div>
   )
