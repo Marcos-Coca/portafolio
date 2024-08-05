@@ -34,7 +34,7 @@ function Navbar() {
         </a>
         <a
           target="blank"
-          href="https://www.linkedin.com/in/marcos-mercado-21421718a/"
+          href="https://www.linkedin.com/in/marcos-mercado-coca/"
         >
           <FaLinkedin />
         </a>
